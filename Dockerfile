@@ -8,4 +8,4 @@ RUN tar -zxvf /software/Python-3.5.2.tgz -C /software/
 RUN cd /software/Python-3.5.2 && ./configure && make -j2&& make install -j2
 RUN pip3 install --upgrade pip
 RUN pip3 install --upgrade setuptools
-RUN pip3 install Django Flask requests PyMySQL ldap3 jira celery
+RUN pip3 install Django Flask requests PyMySQL ldap3 jira celery simplejson
